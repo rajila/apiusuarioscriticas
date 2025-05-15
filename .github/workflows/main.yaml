@@ -1,0 +1,41 @@
+name: Dependency-Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  dependency-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '17'  # Ajusta según tu proyecto
+
+    - name: Download OWASP Dependency-Check
+      run: |
+        curl -L -o dependency-check.zip https://github.com/jeremylong/DependencyCheck/releases/download/v9.0.10/dependency-check-9.0.10-release.zip
+        unzip dependency-check.zip -d dependency-check
+        chmod +x dependency-check/bin/dependency-check.sh
+
+    - name: Run Dependency-Check
+      run: |
+        ./dependency-check/bin/dependency-check.sh \
+          --project "My Project" \
+          --scan . \
+          --format "HTML" \
+          --out reports
+
+    - name: Upload report as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: dependency-check-report
+        path: reports/dependency-check-report.html
