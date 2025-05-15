@@ -23,11 +23,13 @@ jobs:
     - name: Download and extract OWASP Dependency-Check
       run: |
         curl -L -o dependency-check.zip https://github.com/jeremylong/DependencyCheck/releases/download/v9.0.10/dependency-check-9.0.10-release.zip
-        unzip dependency-check.zip
-        extracted_dir=$(find . -maxdepth 1 -type d -name "dependency-check-*" | head -n 1)
-        echo "Extracted dir: $extracted_dir"
-        chmod +x "$extracted_dir/bin/dependency-check.sh"
-        mv "$extracted_dir" ./dependency-check
+        unzip -q dependency-check.zip
+        ls -la
+        # Detect directory name (should be like dependency-check-9.0.10)
+        export DC_DIR=$(ls -d dependency-check-*/)
+        echo "Extracted to: $DC_DIR"
+        chmod +x "${DC_DIR}bin/dependency-check.sh"
+        mv "$DC_DIR" dependency-check
 
 
     - name: Run Dependency-Check
