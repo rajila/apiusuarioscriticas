@@ -18,13 +18,15 @@ jobs:
       uses: actions/setup-java@v4
       with:
         distribution: 'temurin'
-        java-version: '17'  # Ajusta según tu proyecto
-
+        java-version: '23'  # Ajusta según tu proyecto
+    
     - name: Download OWASP Dependency-Check
       run: |
         curl -L -o dependency-check.zip https://github.com/jeremylong/DependencyCheck/releases/download/v9.0.10/dependency-check-9.0.10-release.zip
-        unzip dependency-check.zip -d dependency-check
+        unzip dependency-check.zip
+        mv dependency-check-* dependency-check
         chmod +x dependency-check/bin/dependency-check.sh
+
 
     - name: Run Dependency-Check
       run: |
