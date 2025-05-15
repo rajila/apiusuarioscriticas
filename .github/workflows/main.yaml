@@ -20,18 +20,20 @@ jobs:
         distribution: 'temurin'
         java-version: '23'  # Ajusta según tu proyecto
     
-    - name: Download OWASP Dependency-Check
+    - name: Download and extract OWASP Dependency-Check
       run: |
         curl -L -o dependency-check.zip https://github.com/jeremylong/DependencyCheck/releases/download/v9.0.10/dependency-check-9.0.10-release.zip
         unzip dependency-check.zip
-        mv dependency-check-* dependency-check
-        chmod +x dependency-check/bin/dependency-check.sh
+        extracted_dir=$(find . -maxdepth 1 -type d -name "dependency-check-*" | head -n 1)
+        echo "Extracted dir: $extracted_dir"
+        chmod +x "$extracted_dir/bin/dependency-check.sh"
+        mv "$extracted_dir" ./dependency-check
 
 
     - name: Run Dependency-Check
       run: |
         ./dependency-check/bin/dependency-check.sh \
-          --project "My Project" \
+          --project "apiusuarioscriticas" \
           --scan . \
           --format "HTML" \
           --out reports
