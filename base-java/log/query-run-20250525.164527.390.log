@@ -1,0 +1,11 @@
+[2025-05-25 16:45:27] This is codeql query run controladoresInseguros.ql --database=base-java --output=resultados.bqrs --search-path=~/Desktop/test/codeql/java
+[2025-05-25 16:45:27] Log file was started late.
+[2025-05-25 16:45:27] Calling plumbing command: codeql resolve ram --dataset=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/db-java --format=json
+[2025-05-25 16:45:27] [PROGRESS] resolve ram> Stringpool size measured as 5013930
+[2025-05-25 16:45:27] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1936M",
+                        "--off-heap-ram=1921"
+                      ]
+[2025-05-25 16:45:27] Chaining via /var/folders/b5/00tqq3sj1jx4np2p22z4lp6w0000gn/T/codeql.XXXXXXXX.6MmbSHGGn9 to plumbing: execute queries -J-Xmx1936M --off-heap-ram=1921 --verbosity=progress --logdir=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/log --evaluator-log-level=5 --warnings=show --dynamic-join-order-mode=none --search-path=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/~/Desktop/test/codeql/java --qlconfig-file=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/qlconfig.yml --output=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/resultados.bqrs -- /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/db-java path:/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql
+[2025-05-25 16:45:27] Exiting with code 70

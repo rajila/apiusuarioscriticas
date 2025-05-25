@@ -35,4 +35,52 @@ public class Critica {
 
     @Column(name="id_pelicula", nullable = false)
     private Integer peliculaId;
+
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Integer getNota() {
+        return nota;
+    }
+
+    public void setNota(Integer nota) {
+        this.nota = nota;
+    }
+
+    public Integer getPeliculaId() {
+        return peliculaId;
+    }
+
+    public void setPeliculaId(Integer peliculaId) {
+        this.peliculaId = peliculaId;
+    }
+
+    public Usuario getUsuario() {
+        return Usuario;
+    }
+
+    public void setUsuario(Usuario usuario) {
+        Usuario = usuario;
+    }
+
+    public String getValoracion() {
+        return valoracion;
+    }
+
+    public void setValoracion(String valoracion) {
+        this.valoracion = valoracion;
+    }
 }

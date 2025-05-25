@@ -1,0 +1,159 @@
+[T 14:27:08 48758] CodeQL CLI version 2.21.3
+[T 14:27:08 48758] Initializing tracer.
+[T 14:27:08 48758] Initializing tags.
+[T 14:27:08 48758] ID set to 000000000000BE76_0000000000000001 (parent root)
+[T 14:27:08 48758] Initializing tracer.
+[T 14:27:08 48758] Initializing tags.
+[T 14:27:08 48758] ID set to 000000000000BE76_0000000000000002 (parent root)
+[T 14:27:08 48758] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 14:27:08 48758] ==== Candidate to intercept: /Users/rdajila/codeql/tools/osx64/runner-osx (canonical: /Users/rdajila/codeql/tools/osx64/runner-osx) ====
+[T 14:27:08 48758] Lua: === Intercepted call to /users/rdajila/codeql/tools/osx64/runner-osx ===
+[T 14:27:08 48758] Executing the following tracer actions:
+[T 14:27:08 48758] Tracer actions:
+[T 14:27:08 48758] pre_invocations(0)
+[T 14:27:08 48758] post_invocations(0)
+[T 14:27:08 48758] trace_languages(1): [java]
+[T 14:27:08 48759] Attempting to switch stdout/stderr to 3...
+/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/working/copy-root/000001F5/bin/sh.semmle.0000BE76.31749178.slice.x86_64: replacing existing signature
+[T 14:27:09 48758] Initializing tracer.
+[T 14:27:09 48758] Initializing tags.
+[T 14:27:09 48758] ID set to 000000000000BE76_0000000000000003 (parent 000000000000BE76_0000000000000002)
+[T 14:27:09 48758] ==== Candidate to intercept: ./mvnw (canonical: /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/mvnw) ====
+[T 14:27:09 48758] Lua: === Intercepted call to /users/rdajila/desktop/proyectos_final/seguridad/apiusuarioscriticas/mvnw ===
+[T 14:27:09 48758] Executing the following tracer actions:
+[T 14:27:09 48758] Tracer actions:
+[T 14:27:09 48758] pre_invocations(0)
+[T 14:27:09 48758] post_invocations(0)
+[T 14:27:09 48758] trace_languages(1): [java]
+[T 14:27:09 48765] Attempting to switch stdout/stderr to 3...
+/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/working/copy-root/000001F5/bin/bash.semmle.0000BE76.24060008.slice.x86_64: replacing existing signature
+[T 14:27:10 48758] Initializing tracer.
+[T 14:27:10 48758] Initializing tags.
+[T 14:27:10 48758] ID set to 000000000000BE76_0000000000000004 (parent 000000000000BE76_0000000000000003)
+[T 14:27:10 48758] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 14:27:10 48758] Lua: === Intercepted call to /bin/bash ===
+[T 14:27:10 48758] Executing the following tracer actions:
+[T 14:27:10 48758] Tracer actions:
+[T 14:27:10 48758] pre_invocations(0)
+[T 14:27:10 48758] post_invocations(0)
+[T 14:27:10 48758] trace_languages(1): [java]
+[T 14:27:10 48770] Attempting to switch stdout/stderr to 3...
+/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/working/copy-root/000001F5/usr/bin/uname.semmle.0000BE81.01B4C098.slice.x86_64: replacing existing signature
+[T 14:27:10 48769] Initializing tracer.
+[T 14:27:10 48769] Initializing tags.
+[T 14:27:10 48769] ID set to 000000000000BE81_0000000000000001 (parent 000000000000BE76_0000000000000004)
+[T 14:27:10 48769] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 14:27:10 48769] Lua: === Intercepted call to /usr/bin/uname ===
+[T 14:27:10 48769] Executing the following tracer actions:
+[T 14:27:10 48769] Tracer actions:
+[T 14:27:10 48769] pre_invocations(0)
+[T 14:27:10 48769] post_invocations(0)
+[T 14:27:10 48769] trace_languages(1): [java]
+[T 14:27:10 48778] Attempting to switch stdout/stderr to 3...
+/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/working/copy-root/000001F5/usr/bin/tr.semmle.0000BE89.18175FA8.slice.x86_64: replacing existing signature
+[T 14:27:10 48777] Initializing tracer.
+[T 14:27:10 48777] Initializing tags.
+[T 14:27:10 48777] ID set to 000000000000BE89_0000000000000001 (parent 000000000000BE76_0000000000000004)
+[T 14:27:10 48777] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 14:27:10 48777] Lua: === Intercepted call to /usr/bin/tr ===
+[T 14:27:10 48777] Executing the following tracer actions:
+[T 14:27:10 48777] Tracer actions:
+[T 14:27:10 48777] pre_invocations(0)
+[T 14:27:10 48777] post_invocations(0)
+[T 14:27:10 48777] trace_languages(1): [java]
+[T 14:27:11 48758] Initializing tracer.
+[T 14:27:11 48758] Initializing tags.
+[T 14:27:11 48758] ID set to 000000000000BE76_0000000000000005 (parent 000000000000BE76_0000000000000004)
+[T 14:27:11 48758] ==== Candidate to intercept: /Users/rdajila/.m2/wrapper/dists/apache-maven-3.9.9/3477a4f1/bin/mvn (canonical: /Users/rdajila/.m2/wrapper/dists/apache-maven-3.9.9/3477a4f1/bin/mvn) ====
+[T 14:27:11 48758] Lua: === Intercepted call to /users/rdajila/.m2/wrapper/dists/apache-maven-3.9.9/3477a4f1/bin/mvn ===
+[T 14:27:11 48758] Executing the following tracer actions:
+[T 14:27:11 48758] Tracer actions:
+[T 14:27:11 48758] pre_invocations(0)
+[T 14:27:11 48758] post_invocations(0)
+[T 14:27:11 48758] trace_languages(1): [java]
+[T 14:27:11 48758] Initializing tracer.
+[T 14:27:11 48758] Initializing tags.
+[T 14:27:11 48758] ID set to 000000000000BE76_0000000000000006 (parent 000000000000BE76_0000000000000005)
+[T 14:27:11 48758] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 14:27:11 48758] Lua: === Intercepted call to /bin/bash ===
+[T 14:27:11 48758] Executing the following tracer actions:
+[T 14:27:11 48758] Tracer actions:
+[T 14:27:11 48758] pre_invocations(0)
+[T 14:27:11 48758] post_invocations(0)
+[T 14:27:11 48758] trace_languages(1): [java]
+[T 14:27:11 48882] Initializing tracer.
+[T 14:27:11 48882] Initializing tags.
+[T 14:27:11 48882] ID set to 000000000000BEF2_0000000000000001 (parent 000000000000BE76_0000000000000006)
+[T 14:27:11 48882] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 14:27:11 48882] Lua: === Intercepted call to /usr/bin/uname ===
+[T 14:27:11 48882] Executing the following tracer actions:
+[T 14:27:11 48882] Tracer actions:
+[T 14:27:11 48882] pre_invocations(0)
+[T 14:27:11 48882] post_invocations(0)
+[T 14:27:11 48882] trace_languages(1): [java]
+[T 14:27:11 48885] Attempting to switch stdout/stderr to 3...
+/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/working/copy-root/000001F5/usr/bin/dirname.semmle.0000BEF4.0580D428.slice.x86_64: replacing existing signature
+[T 14:27:11 48884] Initializing tracer.
+[T 14:27:11 48884] Initializing tags.
+[T 14:27:11 48884] ID set to 000000000000BEF4_0000000000000001 (parent 000000000000BE76_0000000000000006)
+[T 14:27:11 48884] ==== Candidate to intercept: /usr/bin/dirname (canonical: /usr/bin/dirname) ====
+[T 14:27:11 48884] Lua: === Intercepted call to /usr/bin/dirname ===
+[T 14:27:11 48884] Executing the following tracer actions:
+[T 14:27:11 48884] Tracer actions:
+[T 14:27:11 48884] pre_invocations(0)
+[T 14:27:11 48884] post_invocations(0)
+[T 14:27:11 48884] trace_languages(1): [java]
+[T 14:27:11 48898] Attempting to switch stdout/stderr to 3...
+/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/working/copy-root/000001F5/usr/bin/java.semmle.0000BE76.1D1E3558.slice.x86_64: replacing existing signature
+[T 14:27:11 48758] Initializing tracer.
+[T 14:27:11 48758] Initializing tags.
+[T 14:27:11 48758] ID set to 000000000000BE76_0000000000000007 (parent 000000000000BE76_0000000000000006)
+[T 14:27:11 48758] ==== Candidate to intercept: /usr/bin/java (canonical: /usr/bin/java) ====
+[T 14:27:11 48758] Lua: === Intercepted call to /usr/bin/java ===
+[T 14:27:11 48758] Executing the following tracer actions:
+[T 14:27:11 48758] Tracer actions:
+[T 14:27:11 48758] pre_invocations(0)
+[T 14:27:11 48758] post_invocations(0)
+[T 14:27:11 48758] trace_languages(1): [java]
+[T 14:27:11 48902] Attempting to switch stdout/stderr to 3...
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java.semmle.0000BE76.340A1520.slice.arm64
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java.semmle.0000BE76.340A1520.slice.arm64
+/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java.semmle.0000BE76.340A1520.slice.arm64: replacing existing signature
+[T 14:27:12 48758] Initializing tracer.
+[T 14:27:12 48758] Initializing tags.
+[T 14:27:12 48758] ID set to 000000000000BE76_0000000000000008 (parent 000000000000BE76_0000000000000007)
+[T 14:27:12 48758] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java) ====
+[T 14:27:12 48758] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/bin/java ===
+[T 14:27:12 48758] Executing the following tracer actions:
+[T 14:27:12 48758] Tracer actions:
+[T 14:27:12 48758] pre_invocations(0)
+[T 14:27:12 48758] post_invocations(0)
+[T 14:27:12 48758] trace_languages(1): [java]
+[T 14:27:12 48758] Passing through -javaagent:/Users/rdajila/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 14:27:12 48758] Passing through -Xbootclasspath/a:/Users/rdajila/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 14:27:12 48758] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/rdajila/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/rdajila/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 14:27:14 48912] Attempting to switch stdout/stderr to 87...
+/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib/jspawnhelper.semmle.0000BE76.22211368.slice.arm64: replacing existing signature
+[T 14:27:14 48915] Initializing tracer.
+[T 14:27:14 48915] Initializing tags.
+[T 14:27:14 48915] ID set to 000000000000BF13_0000000000000001 (parent 000000000000BE76_0000000000000008)
+[T 14:27:14 48915] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 14:27:14 48915] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/lib/jspawnhelper ===
+[T 14:27:14 48915] Executing the following tracer actions:
+[T 14:27:14 48915] Tracer actions:
+[T 14:27:14 48915] pre_invocations(0)
+[T 14:27:14 48915] post_invocations(0)
+[T 14:27:14 48915] trace_languages(1): [java]
+[T 14:27:14 48915] Initializing tracer.
+[T 14:27:14 48915] Initializing tags.
+[T 14:27:14 48915] ID set to 000000000000BF13_0000000000000002 (parent 000000000000BF13_0000000000000001)
+[T 14:27:14 48915] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java) ====
+[T 14:27:14 48915] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/bin/java ===
+[T 14:27:14 48915] Executing the following tracer actions:
+[T 14:27:14 48915] Tracer actions:
+[T 14:27:14 48915] pre_invocations(0)
+[T 14:27:14 48915] post_invocations(0)
+[T 14:27:14 48915] trace_languages(1): [java]
+[T 14:27:14 48915] Passing through -javaagent:/Users/rdajila/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 14:27:14 48915] Passing through -Xbootclasspath/a:/Users/rdajila/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 14:27:14 48915] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/rdajila/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/rdajila/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).

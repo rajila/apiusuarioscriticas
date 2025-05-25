@@ -1,0 +1,79 @@
+[2025-05-25 16:42:52] This is codeql execute queries -J-Xmx1936M --off-heap-ram=1921 --verbosity=progress --logdir=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/log --evaluator-log-level=5 --warnings=show --dynamic-join-order-mode=none --search-path=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/~/Desktop/test/codeql/java --qlconfig-file=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/qlconfig.yml --output=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/resultados.bqrsq -- /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/base-java/db-java path:/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql
+[2025-05-25 16:42:52] Calling plumbing command: codeql resolve queries --search-path=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/~/Desktop/test/codeql/java --qlconfig-file=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/qlconfig.yml --format=json -- path:/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql
+[2025-05-25 16:42:52] [PROGRESS] resolve queries> Recording pack reference (anonymous QL pack at /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql) at /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas.
+[2025-05-25 16:42:52] Plumbing command codeql resolve queries completed:
+                      [
+                        "/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql"
+                      ]
+[2025-05-25 16:42:52] Creating executor with 1 threads.
+[2025-05-25 16:42:52] Calling plumbing command: codeql resolve extensions --search-path=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/~/Desktop/test/codeql/java --qlconfig-file=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/qlconfig.yml --include-extension-row-locations path:/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql
+[2025-05-25 16:42:52] Calling plumbing command: codeql resolve queries --search-path=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/~/Desktop/test/codeql/java --qlconfig-file=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/qlconfig.yml --allow-library-packs --format startingpacks -- path:/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql
+[2025-05-25 16:42:52] [PROGRESS] resolve queries> Recording pack reference (anonymous QL pack at /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql) at /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas.
+[2025-05-25 16:42:52] Plumbing command codeql resolve queries completed:
+                      [
+                        "/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas"
+                      ]
+[2025-05-25 16:42:52] Calling plumbing command: codeql resolve extensions-by-pack --search-path=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/~/Desktop/test/codeql/java --qlconfig-file=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/qlconfig.yml --include-extension-row-locations -- /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas
+[2025-05-25 16:42:52] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] <anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}
+[2025-05-25 16:42:52] [SPAMMY] resolve extensions-by-pack> [DERIVATION] <anonymous pack>: 0.0.0 {<anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}}
+[2025-05-25 16:42:52] [SPAMMY] resolve extensions-by-pack> [DECISION 1] <anonymous pack>: 0.0.0
+[2025-05-25 16:42:52] Plumbing command codeql resolve extensions-by-pack completed:
+                      {
+                        "models" : [ ],
+                        "data" : { },
+                        "threatModels" : { },
+                        "extensionPacks" : [ ]
+                      }
+[2025-05-25 16:42:52] Plumbing command codeql resolve extensions completed:
+                      {
+                        "models" : [ ],
+                        "data" : { },
+                        "threatModels" : { },
+                        "extensionPacks" : [ ]
+                      }
+[2025-05-25 16:42:52] Calling plumbing command: codeql resolve library-path --search-path=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/~/Desktop/test/codeql/java --qlconfig-file=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/qlconfig.yml --query=/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql --format=json
+[2025-05-25 16:42:52] [DETAILS] resolve library-path> Resolving query at normalized path /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql.
+[2025-05-25 16:42:52] [DETAILS] resolve library-path> Found no pack; trying after symlink resolution with /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql.
+[2025-05-25 16:42:52] [DETAILS] resolve library-path> Found enclosing pack 'apiusuarioscriticas' at /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas.
+[2025-05-25 16:42:52] [DETAILS] resolve library-path> Adding compilation cache at /Users/rdajila/.codeql/compile-cache.
+[2025-05-25 16:42:52] [DETAILS] resolve library-path> Resolving library dependencies from /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql.
+[2025-05-25 16:42:52] [SPAMMY] resolve library-path> [INCOMPATIBILITY] <anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}
+[2025-05-25 16:42:52] [SPAMMY] resolve library-path> [DERIVATION] <anonymous pack>: 0.0.0 {<anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}}
+[2025-05-25 16:42:52] [SPAMMY] resolve library-path> [DECISION 1] <anonymous pack>: 0.0.0
+[2025-05-25 16:42:52] [DETAILS] resolve library-path> QL pack dependencies for /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas resolved OK.
+[2025-05-25 16:42:52] [DETAILS] resolve library-path> Found no dbscheme through dependencies.
+[2025-05-25 16:42:52] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas"
+                        ],
+                        "compilationCache" : [
+                          "/Users/rdajila/.codeql/compile-cache"
+                        ],
+                        "relativeName" : "apiusuarioscriticas/controladoresInseguros.ql",
+                        "possibleAdvice" : "There should probably be a qlpack.yml file declaring dependencies in /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas or an enclosing directory.",
+                        "qlPackName" : "apiusuarioscriticas"
+                      }
+[2025-05-25 16:42:52] [PROGRESS] execute queries> Compiling query plan for /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql.
+[2025-05-25 16:42:52] [DETAILS] execute queries> Resolving imports for /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql.
+[2025-05-25 16:42:52] Resolved file set for /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql hashes to d5d299a970910495413098f26f52c551.
+[2025-05-25 16:42:52] [DETAILS] execute queries> Checking QL for /Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql.
+[2025-05-25 16:42:52] Stale frontend caches are invalidated based on import graph reachability.
+[2025-05-25 16:42:53] ExternalModuleBindingPass ...
+[2025-05-25 16:42:53] ExternalModuleBindingPass time: 00:00.000
+[2025-05-25 16:42:53] CollectInstantiationsPass ...
+[2025-05-25 16:42:53] CollectInstantiationsPass time: 00:00.001
+[2025-05-25 16:42:53] Ql checks ...
+[2025-05-25 16:42:53] Ql checks time: 00:00.013
+[2025-05-25 16:42:53] [ERROR] execute queries> ERROR: could not resolve module java (/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql:1,8-12)
+[2025-05-25 16:42:53] [ERROR] execute queries> ERROR: could not resolve module semmle.code.java.frameworks.spring.SpringController (/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql:2,8-59)
+[2025-05-25 16:42:53] [ERROR] execute queries> ERROR: could not resolve module semmle.code.java.frameworks.spring.SpringRequestMapping (/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql:3,8-63)
+[2025-05-25 16:42:53] [ERROR] execute queries> ERROR: could not resolve type Method (/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql:5,6-12)
+[2025-05-25 16:42:53] [ERROR] execute queries> ERROR: could not resolve type Annotation (/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql:5,16-26)
+[2025-05-25 16:42:53] [ERROR] execute queries> ERROR: could not resolve type Variable (/Users/rdajila/Desktop/PROYECTOS_FINAL/seguridad/apiusuarioscriticas/controladoresInseguros.ql:9,10-18)
+[2025-05-25 16:42:53] Sequence stamp origin is -6045492144289526765
+[2025-05-25 16:42:53] Pausing evaluation to close the cache at sequence stamp o+0
+[2025-05-25 16:42:53] The disk cache is freshly trimmed; leave it be.
+[2025-05-25 16:42:53] Unpausing evaluation
+[2025-05-25 16:42:53] This NaiveBuddyAllocator requested 0 eviction rounds.
+[2025-05-25 16:42:53] Exiting with code 2
